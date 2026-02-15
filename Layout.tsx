@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UserRole } from '../types';
+import { UserRole } from './types';
 
 interface LayoutProps {
   children: React.ReactNode;
