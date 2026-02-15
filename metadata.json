@@ -1,0 +1,9 @@
+
+{
+  "name": "SwiftRide Partner Ecosystem",
+  "description": "A comprehensive delivery partner platform featuring a rider app for order management and an admin panel for live tracking, earnings analytics, and system monitoring.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
