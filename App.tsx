@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import Layout from './Layout';
 import { UserRole } from './types';
-import RiderDashboard from './pages/RiderDashboard';
-import Wallet from './pages/Wallet';
-import AdminOverview from './pages/AdminOverview';
+import RiderDashboard from './RiderDashboard';
+import Wallet from './Wallet';
+import AdminOverview from './AdminOverview';
 import MapPlaceholder from './MapPlaceholder';
-import AdminPartners from './pages/AdminPartners';
-import AdminPerformance from './pages/AdminPerformance';
-import AdminAnalytics from './pages/AdminAnalytics';
-import RiderProfile from './pages/RiderProfile';
-import RiderRefer from './pages/RiderRefer';
+import AdminPartners from './AdminPartners';
+import AdminPerformance from './AdminPerformance';
+import AdminAnalytics from './AdminAnalytics';
+import RiderProfile from './RiderProfile';
+import RiderRefer from './RiderRefer';
 
 const App: React.FC = () => {
   const [role, setRole] = useState<UserRole>(UserRole.RIDER);
