@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { MOCK_RIDER, MOCK_TRANSACTIONS } from '../constants';
+import { MOCK_RIDER, MOCK_TRANSACTIONS } from './constants';
 
 const chartData = [
   { name: 'Mon', earnings: 45 },
