@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import { MOCK_RIDER, MOCK_ORDERS } from '../constants';
-import MapPlaceholder from '../components/MapPlaceholder';
-import { Order, OrderStatus } from '../types';
-import { getIntelligentOrderDescription } from '../services/geminiService';
+import { MOCK_RIDER, MOCK_ORDERS } from './constants';
+import MapPlaceholder from './MapPlaceholder';
+import { Order, OrderStatus } from './types';
+import { getIntelligentOrderDescription } from './geminiService';
 
 const RiderDashboard: React.FC = () => {
   const [isOnline, setIsOnline] = useState(MOCK_RIDER.isOnline);
