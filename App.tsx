@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Layout from './components/Layout';
+import Layout from './Layout';
 import { UserRole } from './types';
 import RiderDashboard from './pages/RiderDashboard';
 import Wallet from './pages/Wallet';
 import AdminOverview from './pages/AdminOverview';
-import MapPlaceholder from './components/MapPlaceholder';
+import MapPlaceholder from './MapPlaceholder';
 import AdminPartners from './pages/AdminPartners';
 import AdminPerformance from './pages/AdminPerformance';
 import AdminAnalytics from './pages/AdminAnalytics';
